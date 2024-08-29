@@ -5,7 +5,7 @@ data_base_dir="mit_bih_AF"
 import wfdb
 import pandas as pd 
 import numpy as np
-import scipy.signal as sp
+
 
 SCRIPT_DIR="./mit"
 data_record=Path(SCRIPT_DIR,'RECORDS')
