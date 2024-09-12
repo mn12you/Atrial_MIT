@@ -17,3 +17,12 @@ ECG_ID/*
 !ECG_ID/.gitkeep
 ECG_ID_data/*
 !ECG_ID_data/.gitkeep
+
+contest_data_4s/*
+!contest_data_4s/.gitkeep
+
+contest_data_5s/*
+!contest_data_5s/.gitkeep
+
+contest_data_6s/*
+!contest_data_6s/.gitkeep
