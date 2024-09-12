@@ -29,3 +29,6 @@ contest_data_6s/*
 
 contest_data_4s_whaleteq/*
 !contest_data_4s_whaleteq/.gitkeep
+
+contest_data_4s_LTAFDB/*
+!contest_data_4s_LTAFDB/.gitkeep
