@@ -26,3 +26,6 @@ contest_data_5s/*
 
 contest_data_6s/*
 !contest_data_6s/.gitkeep
+
+contest_data_4s_whaleteq/*
+!contest_data_4s_whaleteq/.gitkeep
