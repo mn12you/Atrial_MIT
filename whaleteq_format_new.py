@@ -3,7 +3,7 @@ import pandas as pd
 from concurrent.futures import ThreadPoolExecutor
 
 source_folder = './contest_data_5s'  # Replace with your source folder path
-destination_folder = './contest_data_5s_whaleteq'  # Replace with your destination folder path
+destination_folder = './contest_data_5s_whaleteq_new'  # Replace with your destination folder path
 
 def copy_folder_structure(src, dst):
     """
@@ -34,11 +34,9 @@ def process_file(src, dst, dirpath, file):
     leadone = raw_data['data'].tolist()
     
     # Prepare the data frame for saving
-    data_df = ["500", str(len(leadone)), "start", "Lead I"]
+    data_df = ["500", str(len(leadone)), "1","Lead 1"]
     data_df = data_df + leadone
-    for lead_name in ["Lead II", "V1", "V2", "V3", "V4", "V5", "V6"]:
-        data_df.append(lead_name)
-        data_df = data_df + ([0] * len(leadone))
+  
     
     # Convert to DataFrame and save as txt
     data_df = pd.DataFrame(data_df)
